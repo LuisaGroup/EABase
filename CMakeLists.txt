@@ -18,8 +18,3 @@ add_library(EABase INTERFACE)
 # Include dirs
 #-------------------------------------------------------------------------------------------
 target_include_directories(EABase INTERFACE $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include/Common>)
-
-#-------------------------------------------------------------------------------------------
-# Installation
-#-------------------------------------------------------------------------------------------
-install(DIRECTORY include/Common/EABase DESTINATION include)
